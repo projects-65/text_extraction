@@ -43,6 +43,3 @@ https://1drv.ms/i/c/96deefaebc2d288a/EYI9_5g5Xh9HiMXx7-wjuNkBgyNz2XJy1ku118gt0_g
 1. Access the application at [http://localhost:5000](http://localhost:5000).
 2. Enter a keyword in the input field and submit the form to search for information in PDF files.
 
-## License
-
-[Your License Here]
