@@ -1,0 +1,16 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+
+# Local development environment
+bhavzz/
+.vscode/
+
+# Environment variables file (if using)
+.env
+
+# Compiled Python files
+*.pyc
+
+# macOS system files
+.DS_Store

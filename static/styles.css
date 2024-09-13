@@ -1,0 +1,76 @@
+body {
+    font-family: Georgia, serif; /* Use Georgia font for a classical look */
+    margin: 0;
+    padding: 0;
+    background-color: #ddf288;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+    font-size: 28px; /* Larger font size */
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b6cde5;
+    background-color: #f2a9d3;
+    font-family: Georgia, serif; /* Use Georgia font for input text */
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #e89bb1;
+}
+
+th {
+    background-color: #94e0ef; /* Light gray background for table header */
+    font-weight: bold;
+    text-align: left;
+}
+
+td {
+    background-color: #c0ed8c;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    
+    input[type="file"] {
+        width: 100%;
+    }
+}
